@@ -107,7 +107,7 @@ Em seguida, peça para o usuário inserir dois números e chame essas 4 funçõe
  sendo o argumento.
  Por fim, mostre no console o resultado das operações:*/
 
-function soma(n1,n2){
+/*function soma(n1,n2){
 return n1 + n2
 }
 function subtração(n1,n2){
@@ -128,6 +128,12 @@ console.log ('Numeros inseridos: ' + 2 + ' - ' + 3)
 console.log ('soma: ' + somaDois)
 console.log ('Diferença: ' + subtraçãoDois)
 console.log ('Multiplicação: ' + multiplicaçãoDois)
-console.log ('Divisão: ' + divisãoDois)
+console.log ('Divisão: ' + divisãoDois)*/
 
+function executa (variavel){
+  return variavel = 356
+    
+}
+alert(variavel)
+executa(5)
 
