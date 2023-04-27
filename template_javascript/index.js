@@ -31,6 +31,10 @@ const outraFuncao = function (texto) {
 const respota = outraFuncao(textoDoUsuario);
 console.log(respota)
 
+
+
+
+
 /*exercicio 3 
 1. Escreva as funções explicadas abaixo:
     a) A função não deve receber nenhum parâmetro e
@@ -49,16 +53,31 @@ imprimaMensagem();*/
 a idade (number), a cidade (string) e uma profissão (string). 
 Ela deve retornar uma string que unifique todas as informações da pessoa em uma só mensagem com o template:*/
 
+
+
+// COMO EU FIZ 
 /*let nome = "Dienifer"
 let idade = 24 
 let cidade = "São Leopoldo"
 let profissão = "Vendedora"
-
 function imprimirtexto(){
     console.log("Meu nome é: " + nome + "tenho: " + idade + "moro na cidade de " + cidade + "e minha profissão é: " + profissão)
 
 }
 imprimirtexto()*/
+
+
+//COMO O PROFESSOR FEZ
+/*function infotmacoesPessoas (nome,idade,cidade,profissao){
+    return `Olá ${nome}, tenho ${idade}, moro em ${cidade}, e sou ${profissao}`
+
+}
+let nomePessoa = prompt('nome: ')
+let idadePessoa = Number(prompt('Idade: '))
+let cidadePessoa = prompt ('cidade: ')
+let profissaoPessoa = prompt (' profissão: ')
+alert(infotmacoesPessoas(nomePessoa,idadePessoa,cidadePessoa,profissaoPessoa))*/
+
 
 /*EXERCICIO 4 
  Escreva as funções explicadas abaixO
@@ -75,15 +94,28 @@ somaNum()*/
     
 /*b) Faça uma função que recebe 2 números e retorne um booleano que informa se o primeiro número 
     /*é **maior ou igual** ao segundo.*/
-/*num1 = 10
+
+// COMO EU FIZ
+    /*num1 = 10
 num2 = 5
 function maiorOuIgual() { 
     console.log( num1 >= num2 )
 }
 maiorOuIgual()*/
 
-    /*c) Escreva uma função que receba um número e devolva um booleano indicando se ele é par ou não*/
-   /* let numero = prompt("Digite um numero: ");
+// COMO O PROFESSOR FEZ
+/*function retornaMaior(num1, num2){
+return num1 >= num2
+}
+alert(retornaMaior(1,3))*/
+
+
+
+/*c) Escreva uma função que receba um número e devolva um booleano indicando se ele é par ou não*/
+
+// COMO EU FIZ
+/*let numero = prompt("Digite um numero: ");
+
 function numeroPar(){
     if (numero % 2==0){ 
     console.log ("seu numero é par!");
@@ -93,6 +125,14 @@ function numeroPar(){
 }
 }
 numeroPar()*/
+
+// COMO O PROFESSOR FEZ
+/*function ePar(num){
+    return num % 2 === 0
+}
+alert (ePar(250))*/
+
+
 /*d) Faça uma função que recebe uma mensagem (string) */
 /*como parâmetro e imprima o tamanho dessa mensagem, juntamente com uma versão dela em letras maiúsculas.*/
 /*let texto = prompt ("Digite uma mensagem: ")
@@ -129,11 +169,24 @@ console.log ('soma: ' + somaDois)
 console.log ('Diferença: ' + subtraçãoDois)
 console.log ('Multiplicação: ' + multiplicaçãoDois)
 console.log ('Divisão: ' + divisãoDois)*/
-
-function executa (variavel){
-  return variavel = 356
+//DESAFIOOOOOOO
+/*1. Funções são trechos de códigos como quaisquer outros mas que podemos acessá-los mais de uma vez ao longo do código através de invocações/chamadas.
+ Então, funções podem chamar/invocar outras funções também. Sua tarefa é escrever duas funções
     
-}
-alert(variavel)
-executa(5)
+    a) Escreva uma *arrow function* que recebe um parâmetro e imprime no console esse parâmetro
+    
+      /*let desafioA = (meuTime) => { //  Modelo arrow function 
+return meuTime 
+    }
+    alert(desafioA('Gremio'))*/
+
+/*b) Escreva outra *arrow function* que recebe dois valores como parâmetros mas **nenhum retorno.** 
+Faça a soma entre esses valores e chame a sua primeira função mandando este resultado da soma como 
+entrada para imprimi-lo*/
+
+
+
+
+
+
 
